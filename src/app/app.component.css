@@ -1,0 +1,11 @@
+.container {
+    padding: 10px;
+}
+
+.hor {
+    display: flex;
+}
+
+.ver {
+    display: block;
+}

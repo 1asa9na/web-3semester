@@ -1,0 +1,41 @@
+button {
+    padding: 8px 16px;
+    margin: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+#add {
+    border-color: dodgerblue;
+    color: dodgerblue;
+}
+
+#del {
+    border-color: tomato;
+    color: tomato;
+}
+
+#add:hover {
+    border-color: dodgerblue;
+    background-color: dodgerblue;
+    color: white;
+}
+
+#del:hover {
+    border-color: tomato;
+    background-color: tomato;
+    color: white;
+}
+
+#add:active {
+    border-color: dodgerblue;
+    background-color: white;
+    color: dodgerblue;
+}
+
+#del:active {
+    border-color: tomato;
+    background-color: white;
+    color: tomato;
+}

@@ -1,0 +1,18 @@
+<table>
+    <thead>
+        <tr>
+            <td>№</td>
+            <td>Title</td>
+            <td>Color</td>
+            <td>Date</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let element of getElements()">
+            <td>{{element.id}}</td>
+            <td>{{element.title}}</td>
+            <td [style.background-color]="element.colorString">{{"_____"}}</td>
+            <td>{{element.date.toTimeString()}}</td>
+        </tr>
+    </tbody>
+</table>

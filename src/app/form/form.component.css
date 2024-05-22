@@ -1,0 +1,51 @@
+input {
+    padding: 8px 16px;
+    border-radius: 10px;
+    margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    padding: 8px 16px;
+    border: 2px solid dodgerblue;
+    color: dodgerblue;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+button:disabled {
+    color: #e3e3e3;
+    border: 2px solid #e3e3e3;
+    background-color: white;
+}
+
+button:disabled:hover {
+    color: #e3e3e3;
+    border: 2px solid #e3e3e3;
+    background-color: white;
+}
+
+button:disabled:active {
+    color: #e3e3e3;
+    border: 2px solid #e3e3e3;
+    background-color: white;
+}
+
+button:hover {
+    border-color: dodgerblue;
+    background-color: dodgerblue;
+    color: white;
+}
+
+button:active {
+    border-color: dodgerblue;
+    background-color: white;
+    color: dodgerblue;
+}
+
+.pop-up {
+    color: tomato;
+    font-family: sans-serif;
+    margin: 0 5px;
+    font-size: 0.8em;
+}
